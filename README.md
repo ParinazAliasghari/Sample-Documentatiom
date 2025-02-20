@@ -1,1 +1,1 @@
-# Sampel-Documentatiom
+# Sample-Documentatiom
