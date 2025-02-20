@@ -1,13 +1,27 @@
-site_name: "Sample Documentation"
+site_name: "MGET Model Documentation"
 theme:
   name: "material"
 
 nav:
   - Home: index.md
-  - Installation:
-      - Setup Guide: installation.md
-  - Model Overview:
-      - Scenarios: scenarios.md
-      - File Structure: files.md
-  - Version Control & CI/CD: versioning.md
+  - Model Description:
+      - Model Object: model_object.md
+      - Sets and Mappings: sets.md
+      - Parameters:
+          - Parameter Overview: parameter_overview.md
+          - Parameter List: parameter_list.md
+      - Variables: variables.md
+      - Constraints: constraints.md
+  - Tools:
+      - Reporting:
+          - Data Files: data.md
+          - Plots: plots.md
+  - Annex:
+      - Tips: tips.md
+      - API: api.md
+      - Related Material: related.md
 
+# Add plugins at the end
+plugins:
+  - search
+  - mike
