@@ -1,13 +1,19 @@
-site_name: "Sample Documentation"
-theme:
-  name: "material"
-
-nav:
-  - Home: index.md
-  - Installation:
-      - Setup Guide: installation.md
-  - Model Overview:
-      - Scenarios: scenarios.md
-      - File Structure: files.md
-  - Version Control & CI/CD: versioning.md
-
+site_name: "Sample Documentation" 
+theme: 
+"  name: material" 
+nav: 
+"  - Home: index.md" 
+"  - Installation: installation.md" 
+"  - Model Overview: model_overview.md" 
+"  - Model Object: model_object.md" 
+"  - Sets and Mappings: sets.md" 
+"  - Parameters: " 
+"    - Parameter Overview: parameter_overview.md" 
+"    - Parameter List: parameter_list.md" 
+"    - Variables: variables.md" 
+"    - Constraints: constraints.md" 
+"  - Tools: " 
+"    - Data Files: files.md" 
+"    - Plots: plots.md" 
+"  - Scenarios: scenarios.md" 
+"  - Version Control & CI/CD: versioning.md" 
