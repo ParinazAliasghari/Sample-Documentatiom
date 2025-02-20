@@ -1,0 +1,13 @@
+site_name: "Sample Documentation"
+theme:
+  name: "material"
+
+nav:
+  - Home: index.md
+  - Installation:
+      - Setup Guide: installation.md
+  - Model Overview:
+      - Scenarios: scenarios.md
+      - File Structure: files.md
+  - Version Control & CI/CD: versioning.md
+
